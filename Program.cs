@@ -28,7 +28,7 @@ namespace BasicCRUDApp
                 else if (operation == 2)
                 {
                     ViewItems();
-                }<><    <   <   <
+                }
                 else if (operation == 3)
                 {
                     UpdateItem();

@@ -12,3 +12,4 @@
 /Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.pdb
 /Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.genruntimeconfig.cache
 /Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/ref/dotnetcrud.dll
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.sourcelink.json
