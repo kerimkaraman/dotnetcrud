@@ -43,7 +43,7 @@ namespace BasicCRUDApp
                 }
                 else
                 {
-                    Console.WriteLine("Yanlış Tuşlama")
+                    Console.WriteLine("Yanlış Tuşlama");
                 }
             }
         }
