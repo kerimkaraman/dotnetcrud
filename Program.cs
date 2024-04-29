@@ -13,7 +13,6 @@ namespace BasicCRUDApp
             bool contExc = true;
             while (contExc)
             {
-                Console.WriteLine("İşlem Seçiniz");
                 Console.WriteLine("1. Veri Ekle");
                 Console.WriteLine("2. Verileri Görüntüle");
                 Console.WriteLine("3. Bir Veri Güncelle");
@@ -67,11 +66,11 @@ namespace BasicCRUDApp
         static void UpdateItem()
         {
             Viewdata();
-            Console.WriteLine("Güncellenecek Verinin idx'ini Giriniz:");
+            Console.WriteLine("Güncellenecek Verinin Numarasını Giriniz:");
             int idx = int.Parse(Console.ReadLine());
             if (idx >= 1 && idx <= data.Count)
             {
-                Console.WriteLine($"Veri {data[idx]}'in yeni değerini giriniz:");
+                Console.WriteLine($"Veri {data[idx - 1]}'in yeni değerini giriniz:");
                 string newValue = Console.ReadLine();
                 data[idx - 1] = newValue;
                 Console.WriteLine("Veri Başarıyla Güncellendi.");
