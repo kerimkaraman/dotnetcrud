@@ -6,7 +6,7 @@ namespace BasicCRUDApp
     class Program
     {
 
-        static List<string> items = new List<string>();
+        static List<string> data = new List<string>();
         static void Main(string[] args)
         {
 
@@ -27,7 +27,7 @@ namespace BasicCRUDApp
                 }
                 else if (operation == 2)
                 {
-                    ViewItems();
+                    Viewdata();
                 }
                 else if (operation == 3)
                 {
@@ -48,32 +48,32 @@ namespace BasicCRUDApp
             }
         }
 
-        static void ViewItems()
+        static void Viewdata()
         {
             Console.WriteLine("Verilerin Listesi");
-            for (int i = 0; i < items.Count; i++)
+            for (int i = 0; i < data.Count; i++)
             {
-                Console.WriteLine($"{i + 1}. {items[i]}");
+                Console.WriteLine($"{i + 1}. {data[i]}");
             }
         }
         static void AddItem()
         {
             Console.WriteLine("Eklenecek veriyi yazınız:");
             string newItem = Console.ReadLine();
-            items.Add(newItem);
+            data.Add(newItem);
             Console.WriteLine("Veri Başarıyla eklendi.");
         }
 
         static void UpdateItem()
         {
-            ViewItems();
-            Console.WriteLine("Güncellenecek Verinin Index'ini Giriniz:");
-            int index = int.Parse(Console.ReadLine());
-            if (index >= 1 && index <= items.Count)
+            Viewdata();
+            Console.WriteLine("Güncellenecek Verinin idx'ini Giriniz:");
+            int idx = int.Parse(Console.ReadLine());
+            if (idx >= 1 && idx <= data.Count)
             {
-                Console.WriteLine($"Veri {index}'in yeni değerini giriniz:");
+                Console.WriteLine($"Veri {data[idx]}'in yeni değerini giriniz:");
                 string newValue = Console.ReadLine();
-                items[index - 1] = newValue;
+                data[idx - 1] = newValue;
                 Console.WriteLine("Veri Başarıyla Güncellendi.");
             }
             else
@@ -84,12 +84,12 @@ namespace BasicCRUDApp
 
         static void DeleteItem()
         {
-            ViewItems();
+            Viewdata();
             Console.WriteLine("Silmek İstediğiniz Verinin İndeks Numarasını Giriniz.");
-            int index = int.Parse(Console.ReadLine());
-            if (index >= 1 && index <= items.Count)
+            int idx = int.Parse(Console.ReadLine());
+            if (idx >= 1 && idx <= data.Count)
             {
-                items.RemoveAt(index - 1);
+                data.RemoveAt(idx - 1);
                 Console.WriteLine("Veri Başarıyla Silindi.");
             }
             else
