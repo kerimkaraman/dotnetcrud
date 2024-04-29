@@ -1,0 +1,14 @@
+/Users/kerimkaraman/Desktop/code/dotnetcrud/bin/Debug/net8.0/dotnetcrud
+/Users/kerimkaraman/Desktop/code/dotnetcrud/bin/Debug/net8.0/dotnetcrud.deps.json
+/Users/kerimkaraman/Desktop/code/dotnetcrud/bin/Debug/net8.0/dotnetcrud.runtimeconfig.json
+/Users/kerimkaraman/Desktop/code/dotnetcrud/bin/Debug/net8.0/dotnetcrud.dll
+/Users/kerimkaraman/Desktop/code/dotnetcrud/bin/Debug/net8.0/dotnetcrud.pdb
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.AssemblyInfoInputs.cache
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.AssemblyInfo.cs
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.csproj.CoreCompileInputs.cache
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.dll
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/refint/dotnetcrud.dll
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.pdb
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/dotnetcrud.genruntimeconfig.cache
+/Users/kerimkaraman/Desktop/code/dotnetcrud/obj/Debug/net8.0/ref/dotnetcrud.dll
